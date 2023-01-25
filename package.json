@@ -1,0 +1,18 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsc && node \"./dist/%npm_config_pattern%/main.js\"",
+    "create-pattern": "set PNAME=%npm_config_pname%&& node config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aadameqq/design-patterns.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Aadameqq/design-patterns/issues"
+  },
+  "homepage": "https://github.com/Aadameqq/design-patterns#readme"
+}
