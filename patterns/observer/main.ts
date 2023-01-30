@@ -91,7 +91,7 @@ class CourierService implements Subscriber<Order>{
     }
 
     public update(newOrder: Order): void {
-        this.scheduleDelivery(newOrder.getProductId(),newOrder.getUser().getFullName())
+        this.scheduleDelivery(newOrder.getProductId(),newOrder.getUser().getDeliveryAddress())
     }
 
     private scheduleDelivery(productId:string, userDeliveryAddress:string){
