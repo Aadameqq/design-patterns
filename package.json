@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "tsc && node \"./dist/%npm_config_pattern%/main.js\"",
+    "start": "node runner.js",
     "create-pattern": "set PNAME=%npm_config_pname%&& node config.js"
   },
   "repository": {
@@ -16,6 +16,8 @@
   },
   "homepage": "https://github.com/Aadameqq/design-patterns#readme",
   "dependencies": {
-    "@types/node": "^18.11.18"
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
   }
 }
